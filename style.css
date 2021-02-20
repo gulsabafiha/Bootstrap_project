@@ -1,0 +1,62 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color:#222;
+}
+.navbar{
+	padding: 16px; 
+}
+.navbar-nav{
+	padding-right: 20px;
+}
+.nav-link{
+	font-size: 18px;
+}
+.carousel-inner img{
+	height: 60%;
+	width: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px black;
+}
+.carousel-caption h2{
+	font-size: 200%;
+	font-weight: 500%;
+	text-shadow: 1px 1px  15px black;
+	padding-bottom: 5px;
+}
+.btn-primary{
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+}
+.jumbotron{
+	padding: 16px;
+	border-radius: 0px;
+}
+.padding{
+	padding-bottom: 2rem ;
+}
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+.Welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 16px; 
+}
